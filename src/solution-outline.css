@@ -1,0 +1,23 @@
+.solution-outline {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.solution-outline .panel-label {
+  display: block;
+}
+
+.solution-outline ol {
+  display: grid;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding-left: 20px;
+  color: #a9b8d2;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.solution-outline li::marker {
+  color: var(--cyan);
+}
